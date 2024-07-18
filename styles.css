@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 48px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.leading {
+  display: flex;
+}
+
+.leading div {
+  flex: 1;
+}
+
+.leading p {
+  font-size: 30px;
+}
+
+.button {
+  padding: 10px;
+  display: block;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.image {
+  background-image: url(https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: contain;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post {
+  margin: 10px;
+  width: 250px;
+  padding: 6px;
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+}
+
+.post-title {
+  font-weight: bold;
+}
+
+.post a {
+  text-decoration: none;
+}
